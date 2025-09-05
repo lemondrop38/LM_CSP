@@ -45,7 +45,7 @@ print("modulo (remainder):", num_one % num_two)
 # 4. List ALL of the different assignment operators (Give me the symbols and what it does)
     #Assingment operators. Use the key word "round" when you want things to be rouded
 num_one = float(input("Give me a number:\n"))
-num_two = int(input("Give me a numer:\n"))
+num_two = int(input("Give me a number:\n"))
 
 num_one += num_two
 print("addition(+):", round(num_one, 0)) #1. What needs rounded 2. How many decimals
@@ -63,13 +63,11 @@ num_one %= num_two
 print("modulo (remainder)(%):", num_one)
 print("(3*5**2/15)-(5-2**2)=",(3*5**2/15)-(5-2**2))
 
-
-
 # 5. Why are expressions so important in programming?
     # Because once you do things once you never have to do it agian. It's a long term way to make things easier.
 
 # 6. What is an expression?
-    #
+    # An expression is a math equation
 
 
 
