@@ -7,7 +7,7 @@ print("I did it!")
 #Examples of strings
 name = input("What is your name:\n").strip().upper().lower().capitalize().title() # ".strip" gets rid of all the extra spacings before and after a code. 
 # ".upper" turns the whole code into uppercase letters. "lower" turns the code into lowercase letters. "capitalize" turns the first letter of code into a capital. "title" will capitalize the first name and last name in your code.
-firs_name = input("What is your last name:\n").strip().title()
+first_name = input("What is your first name:\n").strip().title()
 
 last_name = input("What is your last name:\n").strip().title()
 
@@ -24,8 +24,10 @@ print("Welcome to my program", name)
     #
 
 #4 What is debugging?
-    #
-
+    # debugging is fixing problems in my code.
+        # Syntax error
+        # logic error
+        # run time error
 #5 How do you debug the different types of errors?
     #
 
