@@ -35,7 +35,7 @@ print(" The answer between: (", num_one, "-", num_two, "/", num_three, ")+", num
 
 <<<<<<< HEAD
 total = -2 * (1 * 4 - 2 / 2) + (6 + 2 - 3)
-print("The answer betwee:", -2, "(", 1, "*", 4, "-", 2, "/", 2, ")+(", 6, "+", 2, "-", 3, ")=", total)
+print("The answer between:", -2, "(", 1, "*", 4, "-", 2, "/", 2, ")+(", 6, "+", 2, "-", 3, ")=", total)
 
 total = -1 * ((3 - 4 * 7) / 5) - 2 * 24 / 6
 print(" The answer between:", -1, "(", "(", 3, "-", 4, "*", 7, ")/", 5, ")-", 2, "*", 24, "/", 6, "=", total)
