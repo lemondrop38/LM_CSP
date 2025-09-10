@@ -33,47 +33,33 @@ num_five = 3
 total = (num_one - num_two / num_three) + num_four * num_five
 print(" The answer between: (", num_one, "-", num_two, "/", num_three, ")+", num_four, "*", num_five, "=", total)
 
-num_one = -2
-num_two = 1
-num_three = 4
-num_four = 2
-num_five = 2
-num_six = 6
-num_seven = 2
-num_eight = 3
-total = num_one * num_two * num_three - num_four / num_five + num_six + num_seven - num_eight
-print(" The answer between:", num_one, "*", num_two, "*", num_three, "-", num_four, "/", num_five, "+", num_six, "+", num_seven, "-", num_eight, "=", total)
+total = -2 ( 1 * 4 - 2 / 2) + (6 + 2 - 3)
+print("The answer betwee:", -2, "(", 1, "*", 4, "-", 2, "/", 2, ")+(", 6, "+", 2, "-", 3, ")=", total)
 
-num_one = -1
-num_two = 3
-num_three = 4
-num_four = 7
-num_five = 5
-num_six = 2
-num_seven = 24
-num_eight = 6
-num_nine = x
-total = num_one * num_nine * num_two - num_three * num_four / num_five - num_six * num_seven / num_eight
-print(" The answer between:", num_one, "*",num_nine, "*", num_two, "-", num_three, "*", num_four, "/", num_five, "-", num_six, '*', num_seven, "/", num_eight, "=", total)
+total = -1x ( ( 3 - 4 * 7 ) / 5 ) - 2 * 24 / 6
+print(" The answer between:", -1x, "(", (, 3, "-", 4, "*", 7), "/", 5 ")-", 2, "*", 24, "/", 6, "=", total)
+      
+total = (3 * 5 ^ 2 / 15) - (5 - 2 ^ 2)
+print(" The answer between:(", 3, "*", 5, "^", 2, "/ ", 15,")-(", 5, "-", 2, "^", 2, ")=", total)
 
-num_one = 3
-num_two = 5
-num_three = 2
-num_four = 15
-num_five = 5
-num_six = 2
-num_seven = 2
-total = num_one / num_two - num_three + num_four * num_five
-print(" The answer between:", num_one, "/", num_two, "-", num_three, "+", num_four, "*", num_five, "=", total)
+total = (1 ^ 4 * 2 ^ 2 + 3 ^3) - 2 ^ 5 / 4
+print(" The answer between:(", 1, "^", 4, "*", 2, "^", 2, "+", 3, "^", 3, ")-", 2, "^", 5, "/", 4, "=", total)
+
+total = (22 / 2 - 2 * 5) ^ 2 + (4 - 6 / 6) ^ 2
+print("The answer between:(", 22, "/", 2, "-", 2, "*", 5, ")^", 2, "+(", 4, "-", 6, "/", 6, ")^", 2, "=", total)
 
 
 
+# 7-24➗8✖️4+6=1
+
+# 18➗3-7+2✖️5=9
+
+# 6×4➗12+72➗8-9=2
+
+# (17-6➗2)+4✖️3=26
+
+# -2(1×4-2➗2)+(6+2-3)=-1
 
 
 
-#(3*5^2/15)-(5-2^2) =4
-
-#(1^4*2^2+3^3)-2^5/4 =23
-
-#(22/2-2*5)^2+(4-6/6)^2 =10
 
