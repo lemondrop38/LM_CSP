@@ -2,16 +2,20 @@
 
 def welcome(info):
     return info.strip().lower()
-name = input ("What is your name?\n")
-name = input ("What is your name?\n")
-name = input ("What is your name?\n")
-name = input ("What is your name?\n")
-name = input ("What is your name?\n")
-print(f"Hello {welcome(name)}!")
-print(f"Hello {welcome(name)}!")
-print(f"Hello {welcome(name)}!")
-print(f"Hello {welcome(name)}!")
-print(f"Hello {welcome(name)}!")
+name1 = input ("What is your name?\n")
+print(f"Hello {welcome(name1)}!")
+
+name2 = input ("What is your name?\n")
+print(f"Hello {welcome(name2)}!")
+
+name3 = input ("What is your name?\n")
+print(f"Hello {welcome(name3)}!")
+
+name4 = input ("What is your name?\n")
+print(f"Hello {welcome(name4)}!")
+
+name5 = input ("What is your name?\n")
+print(f"Hello {welcome(name5)}!")
 
 welcome("Lucy")
 welcome("Mac")
@@ -19,4 +23,4 @@ welcome("Vance")
 welcome("Mandy")
 welcome("Krew")
 
-print(f"Welcome to my program!")
+print(f"Welcome all to my program!")
