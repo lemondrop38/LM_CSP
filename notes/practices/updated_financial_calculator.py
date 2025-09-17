@@ -1,4 +1,4 @@
-# LM Financial Calculator 
+# LM Updated Financial Calculator 
 
 income = float(input("What is your monthy income:\n"))
 morgage = float(input("What is your monthy rent/morgage:\n"))
