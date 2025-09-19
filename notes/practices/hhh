@@ -1,0 +1,22 @@
+income = input("What is your monthy income:\n")
+morgage = input("What is your monthy rent/morgage:\n")
+utilities = input("what is your monthly untilities:\n")
+groceries = input("what is your monthly groceries:\n")
+transportation = input("what is your monthly transportation:\n")
+
+savings = income * .1
+
+total = income - (morgage + utilities + groceries + transportation + savings)
+
+print(f"Your rent is: $", {clean(morgage)}, "and that is", {clean(morgage / income)} * 100,"% of your income")
+print(f"Your untilities are: $", {clean(utilities)}, "and that is", {clean(utilities / income)} * 100, "% of your income")
+print(f"Your groceries are: $", {clean(groceries)}, "and that is", {clean(groceries / income)} * 100, "% of your income")
+print(f"your transportation is: $", {clean(transportation)}, "and that is",{clean(transportation / income)} * 100, "% of your income")
+print(f"Your savings: $", {clean(savings)}, "and that is", {clean(income * .1)}, "% of your income" )
+print(f"Your spending amount is: $", {clean(total)})
+      
+def welcome():
+    name = input("what is your name\n")
+    print(f"Hello {name}!")
+    
+print(f"The function is over!")
