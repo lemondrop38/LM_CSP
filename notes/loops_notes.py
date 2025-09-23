@@ -18,7 +18,7 @@ print(f"The hour is: {hour}")
     # 2 - While loops - infinite loops
 
 # What is iteration
-    # keeps track of how many times the loop has run
+    # keeps track of how many times the loop has run. Snap shot, pauses the loop so you can look at it.
 
 # 1 interator (Keep track of loop number)
 # 2 end condition (tells the loop by step)
@@ -27,7 +27,7 @@ print(f"The hour is: {hour}")
 # What are lists? 
     # Allows you to store multiple peices of information within the same variables.
 
-siblings = ["Rachel", "Sarah", "Abby", "Lily", "Caleb", 6, 5, 3, 1, 1]
+siblings = ["Rachel", "Sarah", "Abby", "Caleb", "Lily", 29, 27, 24, 20, 16]
 
 print(siblings[3])
 print(siblings)
